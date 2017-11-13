@@ -14,6 +14,7 @@
 // add to inventory should display prompt to add more of that item
 // add new product to allow addition of new item
 
+var inquirer = require('inquirer');
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
