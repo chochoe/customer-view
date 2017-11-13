@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/chochoe/store-view#readme",
   "dependencies": {
-    "inquirer": "^3.3.0",
+    "inquirer": "^4.0.0",
     "mysql": "^2.15.0"
   }
 }
