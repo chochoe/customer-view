@@ -65,7 +65,7 @@ connection.connect(function(err) {
       var product_sales = (quantity * price) + total_sales;
    
       if (quantity > stockQuantity && stockQuantity > 0) {
-        return console.log("Insufficient quantity! Please choose different quantity for this item.");
+        return console.log("Insufficient quantity! Please choose a different quantity for this item.");
       } else if (stockQuantity <= 0) {
         return console.log("This item is currently out of stock! Sorry for the inconvenience. Please check back later.");
       } else {
@@ -86,10 +86,10 @@ connection.connect(function(err) {
               if (err) {
                 return console.log(err);
               }
-              console.log("Thank you for purchasing " + quantity + " " + productName);
+              console.log("Thank you for buying " + quantity + " " + productName);
             });
           } else {
-            console.log("Thank you for Choosing Bamazon! We hope to see you again soon!");
+            console.log("Thank you for choosing Bamazon! See you again soon!");
           }
       
         });
