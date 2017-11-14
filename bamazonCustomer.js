@@ -26,7 +26,7 @@ connection.connect(function(err) {
     var table = new Table({
       head: ["Item ID", "Product Name", "Price"],
       style: {
-        head: ['blue'],
+        head: ['red'],
         compact: false,
         colAligns: ['center'],
       }
@@ -34,7 +34,7 @@ connection.connect(function(err) {
     
     for (var i = 0; i < res.length; i++) {
       table.push([
-        res[i].id, res[i].product_name, res[i].price, res[i].stock_quantity
+        res[i].id, res[i].product_name, res[i].price
       ]);
     }
   

@@ -37,7 +37,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity, prod
 VALUES ("Tent", "Outdoor", 40.00, 25, 0);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
-VALUES ("Apples per pound", "Produce", 0.99, 450, 0);
+VALUES ("Apples (per pound)", "Produce", 0.99, 450, 0);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
 VALUES ("Ninja Blender", "Small Appliances", 325.00, 50, 0);
